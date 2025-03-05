@@ -127,8 +127,8 @@ A Vite-native unit testing framework with a focus on speed and developer experie
 
 ### Prerequisites
 
-- Node.js (v18 or later recommended)
-- pnpm (v8 or later recommended)
+- Node.js (v22 or later recommended)
+- pnpm (v10 or later recommended)
 
 ### Installation Steps
 
@@ -183,13 +183,13 @@ pnpm test
 ### Running Tests in Watch Mode
 
 ```bash
-pnpm test -- --watch
+pnpm test --watch
 ```
 
 ### Running Tests with Coverage
 
 ```bash
-pnpm test -- --coverage
+pnpm test --coverage
 ```
 
 ## Application Structure
